@@ -10,7 +10,7 @@ services:
       DB_USER: admin
       DB_PASSWORD: admin
     ports:
-      - 8088:80
+      - 8089:80
     depends_on:
       - db
   db:
